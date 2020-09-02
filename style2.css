@@ -1,0 +1,354 @@
+@media only screen and (max-width: 600px) {
+    section {
+        width: 100%;
+        height: 280px;
+    }
+    .home img {
+        display: none;
+    }
+    section p {
+        margin-top: 230px;
+        font-size: 130%;
+        padding: 5%;
+    }
+    .readmore {
+        margin-top: -390px;
+        text-align: center;
+    }
+    .dropbtn {
+        display: inline-block;
+    }
+    footer nav {
+        grid-template-columns: 30% 70%;
+        height: 55px;
+    }
+    footer {
+        height: -100px;
+        border-top: 2px solid;
+    }
+    footer nav {
+        height: 50px;
+        width: 100%;
+        max-width: 100%;
+        grid-template-columns: 30% 70%;
+    }
+    header {
+        height: 50px;
+    }
+    .nav1 img {
+        height: 100px;
+        width: 100px;
+    }
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+    /* .navbar-links ul {
+        display: block;
+    } */
+    .nav1 ul {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        line-height: 20px;
+    }
+    .nav1 li {
+        border-bottom: 2px solid #EAEAEB;
+    }
+    #toggle:checked~.nav1 ul {
+        display: none;
+    }
+    input[type=checkbox]:checked~.nav1 ul {
+        height: 50px;
+        width: 50px;
+        display: none;
+    }
+    /* About Me */
+    .description {
+        font-size: 110%;
+        width: 100%;
+        text-align: center;
+        margin-left: -1%;
+        margin-top: 13%;
+        margin-bottom: 10%;
+    }
+    .about-pic {
+        margin-top: -300px;
+        margin-left: 16%;
+        height: 50%;
+        width: 65%;
+    }
+    .description-header {
+        margin-top: 70%;
+        margin-left: -1%;
+        font-size: 120%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    /* poems */
+    .poems {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .poem p {
+        text-align: left;
+        font-size: 110%;
+        max-width: 100%;
+        margin-top: -2%;
+        margin-left: -2%;
+    }
+    .poem h2 {
+        font-size: 120%;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: -3%;
+        margin-left: 3%;
+    }
+    .poem img {
+        margin-left: 1%;
+        margin-top: 15%;
+        height: 55%;
+        width: 30%;
+    }
+    /* Right-side 1 */
+    .poem-two1 {
+        height: 700px;
+    }
+    .poem-two1 h2 {
+        font-size: 120%;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: -2%;
+        margin-left: 2%;
+    }
+    .poem-two1 p {
+        text-align: left;
+        font-size: 110%;
+        max-width: 600px;
+        margin-top: -3%;
+        margin-left: -3%;
+        margin-bottom: -25%;
+    }
+    .poem-two1 img {
+        margin-left: -3%;
+        margin-top: 1%;
+        height: 55%;
+        width: 30%;
+    }
+    /* Right-side 2 */
+    .poem-two2 {
+        height: 650px;
+    }
+    .poem-two2 h2 {
+        font-size: 120%;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: -10%;
+        margin-left: 2%;
+    }
+    .poem-two2 p {
+        text-align: left;
+        font-size: 110%;
+        max-width: 600px;
+        margin-top: -3%;
+        margin-left: -3%;
+    }
+    .poem-two2 img {
+        margin-left: -3%;
+        margin-top: 15%;
+        height: 55%;
+        width: 30%;
+    }
+    /* Right-side 3 */
+    .poem-two3 {
+        height: 650px;
+    }
+    .poem-two3 h2 {
+        font-size: 120%;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: -7%;
+        margin-left: 2%;
+    }
+    .poem-two3 p {
+        text-align: left;
+        font-size: 110%;
+        max-width: 600px;
+        margin-top: -3%;
+        margin-left: -3%;
+    }
+    .poem-two3 img {
+        margin-left: -3%;
+        margin-top: 22%;
+        height: 35%;
+        width: 20%;
+    }
+    /* Right-side 4 */
+    .poem-two4 {
+        height: 650px;
+    }
+    .poem-two4 h2 {
+        font-size: 120%;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: -10%;
+        margin-left: 2%;
+    }
+    .poem-two4 p {
+        text-align: left;
+        font-size: 110%;
+        max-width: 600px;
+        margin-top: -3%;
+        margin-left: -3%;
+    }
+    .poem-two4 img {
+        margin-left: -3%;
+        margin-top: 15%;
+        height: 35%;
+        width: 30%;
+    }
+    /* Right-side 5 */
+    .poem-two5 {
+        height: 650px;
+    }
+    .poem-two5 h2 {
+        font-size: 120%;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: -10%;
+        margin-left: 2%;
+    }
+    .poem-two5 p {
+        text-align: left;
+        font-size: 110%;
+        max-width: 600px;
+        margin-top: -3%;
+        margin-left: -3%;
+    }
+    .poem-two5 img {
+        margin-left: -3%;
+        margin-top: 30%;
+        height: 35%;
+        width: 30%;
+    }
+    .back-to-top img {
+        position: relative;
+        float: right;
+        margin-top: -100px;
+        margin-left: 90%;
+        height: 40px;
+        width: 40px;
+        position: fixed;
+    }
+    /* Untitled CSS */
+    .untitled-poem {
+        width: 100%;
+        height: 700xp;
+    }
+    .untitled-poem p {
+        text-align: left;
+        font-size: 110%;
+        max-width: 600px;
+        margin-top: -3%;
+        margin-left: -3%;
+    }
+    .untitled-poem h2 {
+        font-size: 120%;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: -10%;
+        margin-left: 2%;
+    }
+    .untitled-poem img {
+        margin-left: -3%;
+        margin-top: 5%;
+        height: 55%;
+        width: 28%;
+    }
+    /* Untitled-Right-side 1 */
+    .untitled-poem-two1 {
+        height: 650px;
+    }
+    .untitled-poem-two1 h2 {
+        font-size: 120%;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: -13%;
+        margin-left: 2%;
+    }
+    .untitled-poem-two1 p {
+        text-align: left;
+        font-size: 110%;
+        max-width: 600px;
+        margin-top: -3%;
+        margin-left: -3%;
+    }
+    .untitled-poem-two1 img {
+        margin-left: -3%;
+        margin-top: 5%;
+        height: 50%;
+        width: 34%;
+    }
+    /* Untitled-Right-side 2 */
+    .untitled-poem-two2 {
+        height: 750px;
+    }
+    .untitled-poem-two2 h2 {
+        font-size: 120%;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: -6%;
+        margin-left: 2%;
+    }
+    .untitled-poem-two2 p {
+        text-align: left;
+        font-size: 110%;
+        max-width: 600px;
+        margin-top: -3%;
+        margin-left: -3%;
+    }
+    .untitled-poem-two2 img {
+        margin-left: -4%;
+        margin-top: 30%;
+        height: 25%;
+        width: 20%;
+    }
+    /* Untitled-Right-side 3 */
+    .untitled-poem-two3 {
+        height: 600px;
+    }
+    .untitled-poem-two3 h2 {
+        font-size: 120%;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: -8%;
+        margin-left: 2%;
+    }
+    .untitled-poem-two3 p {
+        text-align: left;
+        font-size: 110%;
+        max-width: 600px;
+        margin-top: -3%;
+        margin-left: -3%;
+    }
+    .untitled-poem-two3 img {
+        margin-left: -2%;
+        margin-top: 10%;
+        height: 55%;
+        width: 25%;
+    }
+    /* Untitled-Right-side 4 */
+    .untitled-poem-two4 {
+        height: 650px;
+    }
+    .untitled-poem-two4 h2 {
+        font-size: 120%;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: -3%;
+        margin-left: 2%;
+    }
+    .untitled-poem-two4 p {
+        text-align: left;
+        font-size: 110%;
+        max-width: 600px;
+        margin-top: -3%;
+        margin-left: -3%;
+    }
+    .untitled-poem-two4 img {
+        margin-left: -3%;
+        margin-top: 15%;
+        height: 25%;
+        width: 25%;
+    }
+}

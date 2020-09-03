@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cantora+One&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Amelia's Poems</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav1">
+            <span class="top-title"><a href="index.html"><img src="logo4.png"></a></span>
+            <div class="navbar-links">
+                <!-- <label for="toggle" class="toggle-button">&#9776;</label> -->
+
+                <ul class="menu">
+                    <p></p>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="mypoems.html">Titled</a>
+                    </li>
+                    <li>
+                        <a href="mypoems2.html">Untitled</a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html">About</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">&#9776</button>
+                <div id="myDropDown" class="dropdown-content">
+
+                    <a href="index.html">Home</a>
+
+                    <a href="mypoems.html">Titled</a>
+
+                    <a href="mypoems2.html">Untitled</a>
+
+                    <a href="aboutme.html">About</a>
+
+                </div>
+            </div>
+
+
+        </nav>
+    </header>
+
+    <section class="home">
+        <p>"Time wonders past me and I<br>begin to dream of things beyond my <br> reach. Paper and ink have never failed me " -Amelia.</p>
+        <img src="Amelia's Website.png">
+    </section>
+
+    <section class="readmore">
+        <p> <a href="mypoems.html">Read More </a></p>
+    </section>
+
+
+    <footer>
+        <nav>
+            <p> </p>
+            <div class="contact-me">
+                <ul>
+                    <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+                    <li><a href="http://twitter.com/Meliajay3"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="http://www.instagram.com/Meliajay7"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="mailto:meliajay7@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                </ul>
+        </nav>
+        <p class="credit">Designed and Developed from scratch by Vanessa Agbugba | Copyright 2020</p>
+    </footer>
+
+    <script>
+        function myFunction() {
+            document.getElementById("myDropDown").classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropDown = dropdowns[i];
+                    if (openDropDown.classList.contains('show')) {
+                        openDropDown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

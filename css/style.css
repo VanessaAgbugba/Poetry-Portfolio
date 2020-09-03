@@ -1,0 +1,640 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F3F3;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    height: 70px;
+    max-width: 100%;
+    border-bottom: 2px solid;
+}
+
+.nav1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 35px;
+    color: black;
+}
+
+.nav1 img {
+    padding-top: 10px;
+    height: 125px;
+    width: 125px;
+}
+
+header nav a {
+    color: black;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-links ul {
+    margin-left: 60vw;
+    padding: 0;
+    display: flex;
+}
+
+.toggle-button {
+    font-size: 30px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.dropbtn {
+    background-color: #f1f1f1;
+    color: black;
+    padding: 0px 5px 0px 5px;
+    font-size: 100%;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    float: right;
+    display: none;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: rgb(218, 218, 218);
+    transition: .4s;
+}
+
+.dropbtn:active {
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    margin-top: 19%;
+    width: 100%;
+    text-align: center;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, .07);
+    border-radius: 6px;
+}
+
+.dropdown-content a {
+    color: black;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40%;
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 200%;
+    transition: 1s;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+    height: 100%;
+}
+
+.show {
+    display: block;
+}
+
+#main {
+    transition: margin-right 0.5s;
+}
+
+header nav ul li {
+    max-width: 100%;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+header nav ul li a {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+header nav ul li a:active {
+    color: red;
+}
+
+header nav ul li a:hover {
+    color: gray;
+}
+
+section {
+    height: 230px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+section p {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: black;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 180%;
+}
+
+.home img {
+    margin-top: -250px;
+    margin-left: 70%;
+    height: 200%;
+}
+
+.readmore {
+    margin-top: -270px;
+    text-align: center;
+}
+
+.readmore a {
+    color: black;
+    font-size: 70%;
+    font-family: 'Montserrat', sans-serif
+}
+
+footer {
+    border-top: 2px solid;
+}
+
+footer nav {
+    height: 60px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 43% 57%;
+}
+
+.contact-me ul {
+    left: 50%;
+    display: flex;
+}
+
+.contact-me ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+.contact-me ul li .fa {
+    font-size: 20px;
+    line-height: 45px;
+    transition: .3s;
+    color: black;
+}
+
+.contact-me ul li .fa:hover {
+    color: black;
+}
+
+.contact-me ul li a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #8FE3D9;
+    text-align: center;
+    transition: .3s;
+}
+
+.contact-me ul li:nth-child(1) a:hover {
+    background-color: #55acee;
+}
+
+.contact-me ul li:nth-child(2) a:hover {
+    background-color: #e4405f;
+}
+
+.contact-me ul li:nth-child(3) a:hover {
+    background-color: #AB3629;
+}
+
+.contact-me ul li a:hover {
+    transform: translate(0, -6px);
+}
+
+.credit {
+    color: black;
+    text-align: center;
+    font-size: 14px;
+}
+
+.about-me {
+    font-size: 5%;
+    padding: 30px;
+}
+
+.poems {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    color: rgb(51, 51, 50);
+    padding: 40px;
+}
+
+ul.menu li a {
+    padding: 5px;
+}
+
+.description {
+    font-size: 1.35em;
+    margin-top: -360px;
+    margin-left: -10%;
+    margin-bottom: 40px;
+}
+
+.description-header {
+    margin-left: -9%;
+    font-size: 1.3em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-pic {
+    margin-top: -150px;
+    margin-left: 43%;
+    height: 350px;
+    width: 55%;
+}
+
+.poem {
+    height: 650px;
+    width: 100%;
+}
+
+.poem p {
+    text-align: left;
+    font-size: 120%;
+    max-width: 600px;
+    margin-top: 3%;
+    margin-left: 22%;
+}
+
+.poem h2 {
+    font-size: 140%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -18%;
+    margin-left: 22.0%;
+}
+
+.poem img {
+    margin-left: 1%;
+    margin-top: 10%;
+    height: 25%;
+    width: 15%;
+}
+
+
+/* Right-side 1 */
+
+.poem-two1 {
+    height: 650px;
+}
+
+.poem-two1 h2 {
+    font-size: 140%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -18%;
+    margin-left: 64.5%;
+}
+
+.poem-two1 p {
+    text-align: right;
+    font-size: 120%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.poem-two1 img {
+    height: 300px;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 1050px;
+}
+
+
+/* Right-side 2 */
+
+.poem-two2 {
+    height: 650px;
+}
+
+.poem-two2 h2 {
+    font-size: 140%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -230px;
+    margin-left: 765px;
+}
+
+.poem-two2 p {
+    text-align: right;
+    font-size: 120%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.poem-two2 img {
+    height: 300px;
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 1050px;
+}
+
+
+/* Right-side 3 */
+
+.poem-two3 {
+    height: 650px;
+}
+
+.poem-two3 h2 {
+    font-size: 140%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -180px;
+    margin-left: 710px;
+}
+
+.poem-two3 p {
+    text-align: right;
+    font-size: 120%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.poem-two3 img {
+    height: 200px;
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 1050px;
+}
+
+
+/* Right-side 4 */
+
+.poem-two4 {
+    height: 650px;
+}
+
+.poem-two4 h2 {
+    font-size: 140%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -250px;
+    margin-left: 960px;
+}
+
+.poem-two4 p {
+    text-align: right;
+    font-size: 120%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.poem-two4 img {
+    height: 300px;
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 1050px;
+}
+
+
+/* Right-side 5 */
+
+.poem-two5 {
+    height: 470px;
+}
+
+.poem-two5 h2 {
+    font-size: 140%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -270px;
+    margin-left: 740px;
+}
+
+.poem-two5 p {
+    text-align: right;
+    font-size: 120%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.poem-two5 img {
+    height: 300px;
+    width: 200px;
+    margin-top: 90px;
+    margin-left: 1050px;
+}
+
+.back-to-top img {
+    position: relative;
+    float: right;
+    margin-top: -230px;
+    margin-left: 90%;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+}
+
+
+/* Untitled CSS */
+
+.untitled-poem {
+    height: 650px;
+    width: 1000px;
+}
+
+.untitled-poem p {
+    text-align: left;
+    font-size: 120%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+
+.untitled-poem h2 {
+    font-size: 140%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -300px;
+    margin-left: 300px;
+}
+
+.untitled-poem img {
+    margin-left: 20px;
+    margin-top: 60px;
+    height: 380px;
+    width: 200px;
+}
+
+
+/* Untitled-Right-side 1 */
+
+.untitled-poem-two1 {
+    height: 650px;
+}
+
+.untitled-poem-two1 h2 {
+    font-size: 140%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -290px;
+    margin-left: 950px;
+}
+
+.untitled-poem-two1 p {
+    text-align: right;
+    font-size: 120%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.untitled-poem-two1 img {
+    height: 350px;
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 1050px;
+}
+
+
+/* Untitled-Right-side 2 */
+
+.untitled-poem-two2 {
+    height: 650px;
+}
+
+.untitled-poem-two2 h2 {
+    font-size: 140%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -320px;
+    margin-left: 950px;
+}
+
+.untitled-poem-two2 p {
+    text-align: right;
+    font-size: 120%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.untitled-poem-two2 img {
+    height: 350px;
+    width: 200px;
+    margin-top: 200px;
+    margin-left: 1050px;
+}
+
+
+/* Untitled-Right-side 3 */
+
+.untitled-poem-two3 {
+    height: 650px;
+}
+
+.untitled-poem-two3 h2 {
+    font-size: 140%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -220px;
+    margin-left: 950px;
+}
+
+.untitled-poem-two3 p {
+    text-align: right;
+    font-size: 120%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.untitled-poem-two3 img {
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 1050px;
+}
+
+
+/* Untitled-Right-side 4 */
+
+.untitled-poem-two4 {
+    height: 650px;
+}
+
+.untitled-poem-two4 h2 {
+    font-size: 140%;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -310px;
+    margin-left: 950px;
+}
+
+.untitled-poem-two4 p {
+    text-align: right;
+    font-size: 120%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.untitled-poem-two4 img {
+    height: 300px;
+    width: 200px;
+    margin-top: 170px;
+    margin-left: 1050px;
+}
+
+
+/* Untitled-Right-side 5 */
+
+.untitled-poem-two5 {
+    height: 550px;
+}
+
+.untitled-poem-two5 h2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -180px;
+    margin-left: 950px;
+}
+
+.untitled-poem-two5 p {
+    text-align: right;
+    font-size: 120%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 450px;
+}
+
+.untitled-poem-two5 img {
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 1050px;
+}
+
+.untitled-back-to-top img {
+    position: relative;
+    float: right;
+    margin-top: -230px;
+    margin-left: 1250px;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+}
+
+
+/* Responsive */
